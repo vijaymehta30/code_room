@@ -11,4 +11,8 @@ export const removeClass = (el,className) => {
 };
 
 
+<<<<<<< HEAD
 export const api_base_url = "https://code-room-kkzv.onrender.com"
+=======
+export const api_base_url = "https://code-room-kkzv.onrender.com"
+>>>>>>> 27eed9748fa46910cb44f1dcb4a22ed09187301a
