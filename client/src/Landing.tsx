@@ -7,7 +7,7 @@ import ApplicationServices from "./pages/ApplicationServices";
 
 
 function Landing(){
-    const navigate =useNavigate();
+    const [isGridLayout, setIsGridLayout] = useState(false)
       const avatars = [
     "https://i.pravatar.cc/100?img=1",
     "https://i.pravatar.cc/100?img=2",
@@ -55,7 +55,11 @@ function Landing(){
 
     return (
         <>
-            <Navbar/>
+           <Navbar
+  isGridLayout={isGridLayout}
+  setIsGridLayout={setIsGridLayout}
+/>
+
             <section className="relative overflow-hidden bg-[#f7f8fc] py-24">
             
              {/* Grid Background */}
