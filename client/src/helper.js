@@ -11,4 +11,4 @@ export const removeClass = (el,className) => {
 };
 
 
-export const api_base_url = "http://localhost:5000"
+export const api_base_url = "https://code-room-kkzv.onrender.com"
